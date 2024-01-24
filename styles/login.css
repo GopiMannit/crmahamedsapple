@@ -1,0 +1,145 @@
+body{
+  overflow: hidden;
+}
+
+
+.install-button {
+  background-color: #13ea25;
+  color: #ffffff;
+  width: 10%;
+  margin-bottom: 5px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-left: 10px;
+}
+.pwa{
+  margin-left:40%;
+}
+
+.error-message {
+    color: red
+  }
+  .alert-message{
+    color: red;
+    margin-top: 10px;
+  }
+  .error-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .success-message {
+    color: rgb(28, 116, 28);
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+  }
+  .danger-sign {
+    color: red;
+    font-size: 20px;
+    margin-right: 5px;
+  }
+  
+  .login-container {
+    display: flex;
+    height: fit-content;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    background-color: #8db600;
+    padding: 25px;
+  }
+  
+  .login-form {
+    max-width: 300px;
+    width: 100%;
+    height: 60%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input[type='text'],
+  input[type='password'] {
+    width: 100%;
+    padding: 6px;
+    border-radius: 0;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-sizing: border-box;
+    font-weight: bold;
+    /* font-size: 15px; */
+  }
+  
+  .password-field {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .show-password {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .show-password input[type="checkbox"] {
+    margin-right: 5px;
+  }
+  
+  .text-center {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  
+  button {
+    width: 80%;
+    background-color: #8db600;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .login-image {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px;
+    background-color: black;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .login-form {
+      max-width: 90%;
+    }
+  
+    .login-image {
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width:1200px) {
+    .login-form {
+      max-width: 90%;
+    }
+  
+    .login-image {
+      max-width: 50%;
+    }
+  
+  }
